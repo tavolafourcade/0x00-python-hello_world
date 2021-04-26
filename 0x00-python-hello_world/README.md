@@ -1,7 +1,7 @@
 # 0x00. Python - Hello, World
 
 ## Overview
-This project was a brief introduction to the Python programming language. Concepts included how to print text and variables using print, how to use strings, indexing and slicing in Python, and general background on higher-level programming.
+This project was based on Python programming language. 
 
 ## Requirements
 ### Python Scripts
@@ -141,3 +141,4 @@ and that piece of art is useful - Dora Korpar, 2015-10-19
              10 BINARY_ADD
              11 RETURN_VALUE
 ```
+This programs were developed by Octavio Lafourcade ([@olafourcade](https://www.linkedin.com/in/octaviolafourcade/))
