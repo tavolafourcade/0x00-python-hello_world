@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
+
 if number > 0:
 	rem = number % 10
 else:
-	rem = (abs(number) % 10)*-1
+	rem = abs(number) % 10 * -1
 print('Last digit of {:d} is {:d} and is'.format(number, rem), end=" ")
-
 if rem > 5:
     print('greater than 5')
 elif rem == 0:
