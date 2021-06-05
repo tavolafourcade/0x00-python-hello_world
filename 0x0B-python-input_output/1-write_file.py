@@ -1,17 +1,8 @@
 #!/usr/bin/python3
-"""Documentation for a number_of_lines function"""
+"""defining write_file with two arguments"""
 
 
-def number_of_lines(filename=""):
-    """Returns the number of lines in the current file
-    Args:
-        filename (str): the filename to open
-    Returns:
-        the number of lines in the file
-    """
-
-    lines = 0
-    with open(filename, encoding='utf-8') as f:
-        for i in f:
-            lines += 1
-        return lines
+def write_file(filename="", text=""):
+    """reads filename with utf-8"""
+    with open(filename, "w", encoding='utf-8') as f:
+        return f.write(text)
