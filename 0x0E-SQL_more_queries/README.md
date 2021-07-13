@@ -1,8 +1,8 @@
-####0x0E. SQL - More queries
+# 0x0E. SQL - More queries
 
-### 0. My privileges!
-**[0-privileges.sql](0-privileges.sql)**
-Write a script that lists all privileges of the MySQL users user_0d_1 and user_0d_2 on your server (in localhost).
+## Tasks
+### Mandatory
+**[0-privileges.sql](0-privileges.sql)** - Write a script that lists all privileges of the MySQL users user_0d_1 and user_0d_2 on your server (in localhost).
 ```
 guillaume@ubuntu:~/$ cat 0-privileges.sql | mysql -hlocalhost -uroot -p
 Enter password: 
